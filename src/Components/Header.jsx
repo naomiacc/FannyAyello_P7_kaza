@@ -1,8 +1,8 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink  } from 'react-router-dom';
 import logo from '../Assets/logo-home.png';
 
-function Header() {
+function Header(props) {
 	return (
 		<header className='header'>
 			<h1 className='header__logo'>
