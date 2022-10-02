@@ -14,7 +14,7 @@ function Header() {
 						<NavLink to='/'>Accueil</NavLink>
 					</li>
 					<li className='header__nav__ul__li'>
-						<NavLink to='/about'>A propos</NavLink>
+						<NavLink to='/about'>A Propos</NavLink>
 					</li>
 				</ul>
 			</nav>

@@ -1,0 +1,41 @@
+@import "../utils/variables.scss";
+@import "../utils/mixins.scss";
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: $header-height;
+	margin: $body-top $body-sides 0px $body-sides;
+	@include mobile-800 {
+		margin: $body-sides-S $body-sides-S 0px $body-sides-S;
+	}
+
+	&__logo {
+		height: 100%;
+		margin: 0;
+		display: flex;
+		align-items: center;
+	}
+
+	&__nav {
+		display: flex;
+		align-items: center;
+		&__ul {
+			display: flex;
+
+			&__li {
+				//pour li, voir dans index.scss
+				margin-left: 100px;
+				@include mobile-800 {
+					margin-left: 10px;
+				}
+			}
+		}
+	}
+}
+
+.active {
+	text-decoration: underline;
+}
