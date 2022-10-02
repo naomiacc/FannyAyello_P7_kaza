@@ -6,6 +6,8 @@ import About from "./Pages/About";
 import Apartments from "./Pages/Apartments";
 import Header from "./Components/Header";
 
+import "./Styles/index.scss";
+
 const App = () => {
   return (
     <Routes>
