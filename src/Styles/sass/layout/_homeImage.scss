@@ -1,0 +1,48 @@
+@import "../utils/variables.scss";
+@import "../utils/mixins.scss";
+
+.homeImage {
+	&__container {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: $homeImage-height;
+		background-size: 100% 100%;
+		border-radius: $homeImage-radius;
+		margin-bottom: $homeImage-bootom-margin;
+		background-color: grey;
+		@include mobile-800 {
+			background-size: cover;
+			background-position: center;
+		}
+
+		&__background {
+			z-index: 2;
+			position: absolute;
+			background-color: black;
+			opacity: 30%;
+			width: 100%;
+			height: $homeImage-height;
+			border-radius: $homeImage-radius;
+		}
+		&__title {
+			margin: 10px;
+			position: absolute;
+			z-index: 3;
+			color: white;
+			font-size: 48px;
+			line-height: 68px;
+			line-height: 143%;
+			font-weight: 500;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			@include mobile-800 {
+				font-size: 24px;
+			}
+		}
+	}
+}
