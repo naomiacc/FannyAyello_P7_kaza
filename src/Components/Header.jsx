@@ -1,9 +1,10 @@
 import React from 'react';
-import { NavLink  } from 'react-router-dom';
-import logo from '../Assets/logo-home.png';
+import { NavLink , Outlet } from 'react-router-dom';
+import logo from '../assets/logo-home.png';
 
 function Header(props) {
 	return (
+		<>
 		<header className='header'>
 			<h1 className='header__logo'>
 				<img src={logo} alt='kaza header logo' className='prim-on-sec' />
@@ -19,6 +20,9 @@ function Header(props) {
 				</ul>
 			</nav>
 		</header>
+		<Outlet/>
+		</>
+
 	);
 }
 
