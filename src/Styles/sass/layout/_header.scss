@@ -7,9 +7,9 @@
 	justify-content: space-between;
 	align-items: center;
 	height: $header-height;
-	margin: $body-top $body-sides 0px $body-sides;
+	margin: $body-top $body-sides $body-bottom $body-sides;
 	@include mobile-800 {
-		margin: $body-sides-S $body-sides-S 0px $body-sides-S;
+		margin: $body-sides-S $body-sides-S $body-sides-S;
 	}
 
 	&__logo {
