@@ -10,3 +10,12 @@
 	}
 }
 
+
+@mixin prim-on-sec {
+	color: $colour-primary;
+	background-color: $colour-secondary;
+}
+
+.prim-on-sec {
+	@include prim-on-sec();
+}

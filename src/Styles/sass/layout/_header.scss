@@ -24,6 +24,11 @@
 		align-items: center;
 		&__ul {
 			display: flex;
+			@include mobile-800 {
+				text-transform: uppercase;
+				font-size: small;
+				white-space:nowrap;
+			}
 
 			&__li {
 				//pour li, voir dans index.scss
@@ -38,4 +43,11 @@
 
 .active {
 	text-decoration: underline;
+}
+
+.prim-on-sec {
+	@media screen and (max-width: 800px) {
+		height: auto;
+		max-width: 85%;
+	}
 }
