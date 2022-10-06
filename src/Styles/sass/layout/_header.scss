@@ -38,11 +38,11 @@
 				}
 			}
 		}
-	}
-}
 
-.active {
-	text-decoration: underline;
+		&__ul a:hover{
+			text-decoration-line: underline;
+		}
+	}
 }
 
 .prim-on-sec {
