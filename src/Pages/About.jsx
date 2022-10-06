@@ -4,7 +4,7 @@ import Footer from "../components/Footer"
 import HomeImage from '../components/HomeImage';
 import BackgroundAbout from '../assets/background-about.png';
 
-import dropDownData from '../assets/about.json';
+import DropDownData from '../assets/about.json';
 import DropDown from '../components/DropDown';
 
 const maskGroup = {
@@ -17,8 +17,8 @@ function About (props) {
 		<div className='page'>
 			<div className='about container'>
 				<HomeImage {...maskGroup} />
-				{dropDownData.map((object) => (
-					<DropDown {...object} key={dropDownData.indexOf(object)} />
+				{DropDownData.map((object) => (
+					<DropDown {...object} key={DropDownData.indexOf(object)} />
 				))}
 			</div>
 			<Footer />

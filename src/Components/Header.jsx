@@ -1,13 +1,13 @@
 import React from 'react';
 import { NavLink , Outlet } from 'react-router-dom';
-import logo from '../assets/logo-home.png';
+import Logo from '../assets/logo-home.png';
 
 function Header(props) {
 	return (
 		<>
 		<header className='header'>
 			<h1 className='header__logo'>
-				<img src={logo} alt='kaza header logo' className='prim-on-sec' />
+				<img src={Logo} alt='kaza header logo' className='prim-on-sec' />
 			</h1>
 			<nav className='header__nav'>
 				<ul className='header__nav__ul'>

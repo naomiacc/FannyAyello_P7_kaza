@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 
-import arrow from '../assets/dropdown-arrow-desktop.png';
+import Arrow from '../assets/dropdown-arrow-desktop.png';
 import '../styles/sass/composants/_dropDown.scss';
 
 
@@ -35,7 +35,7 @@ const DropDown = (props) => {
 					className={
 						isActive ? 'dropdown__title__arrow ' : 'dropdown__title__arrow down'
 					}>
-					<img src={arrow} alt='arrow' />
+					<img src={Arrow} alt='arrow' />
 				</div>
 			</div>
 			<div className='dropdown__pannel' style={{ display: display }}>
