@@ -1,4 +1,6 @@
 import React from 'react';
+import Footer from "../components/Footer"
+
 import { Link } from 'react-router-dom';
 import '../styles/sass/pages/_error.scss';
 
@@ -15,6 +17,7 @@ function Error (props) {
 					Retourner sur la page d'accueil
 				</Link>
 			</div>
+			<Footer />
 		</div>
 	)
 }

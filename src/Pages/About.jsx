@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from "../components/Footer"
 
 import HomeImage from '../components/HomeImage';
 import BackgroundAbout from '../assets/background-about.png';
@@ -20,6 +21,7 @@ function About (props) {
 					<DropDown {...object} key={dropDownData.indexOf(object)} />
 				))}
 			</div>
+			<Footer />
 		</div>
 	);
 }
