@@ -2,6 +2,11 @@
 @import "../utils/mixins.scss";
 
 .error {
+    position: relative;
+    text-align: center;
+    justify-content: space-evenly;
+    width: auto;
+
 	@include prim-on-sec;
 	&__h1 {
 		font-style: normal;
