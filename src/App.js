@@ -5,7 +5,6 @@ import Error from "./pages/Error";
 import About from "./pages/About";
 import Apartments from "./pages/Apartments";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 
 import "./styles/index.scss";
 import "./styles/normalize.css";
@@ -21,7 +20,6 @@ const App = () => {
           <Route path="*" element={<Error />} />
         </Route>
       </Routes>
-      <Footer />
     </>
   );
 };
