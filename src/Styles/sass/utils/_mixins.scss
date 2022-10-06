@@ -19,3 +19,18 @@
 .prim-on-sec {
 	@include prim-on-sec();
 }
+
+@mixin sec-on-prim {
+	color: $colour-secondary;
+	background-color: $colour-primary;
+}
+
+.sec-on-prim {
+	@include sec-on-prim();
+}
+
+@mixin prim-on-grey {
+	color: $colour-primary;
+	background-color: $background-grey;
+}
+
