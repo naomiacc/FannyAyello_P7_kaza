@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/sass/layout/_homeImage.scss';
+import '../Styles/sass/layout/_homeImage.scss';
 
 
 export default function HomeImage(props) {

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Logo from '../assets/logo-footer.png';
-import '../styles/sass/layout/_footer.scss';
+import Logo from '../Assets/logo-footer.png';
+import '../Styles/sass/layout/_footer.scss';
 
 
 function Footer (props) {

@@ -1,8 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
 
-import Arrow from '../assets/dropdown-arrow-desktop.png';
-import '../styles/sass/composants/_dropDown.scss';
+import Arrow from '../Assets/dropdown-arrow-desktop.png';
+import '../Styles/sass/composants/_dropDown.scss';
 
 
 const DropDown = (props) => {

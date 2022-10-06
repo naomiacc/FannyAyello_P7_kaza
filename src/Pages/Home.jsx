@@ -1,11 +1,11 @@
 import React from 'react';
-import Footer from "../components/Footer"
+import Footer from "../Components/Footer"
 
-import HomeImage from '../components/HomeImage';
-import BackgroundHome from '../assets/background-home.png';
+import HomeImage from '../Components/HomeImage';
+import BackgroundHome from '../Assets/background-home.png';
 
-// import data from '../assets/logements.json';
-// import LodgingCard from '../components/LodgingCard';
+// import data from '../Assets/logements.json';
+// import LodgingCard from '../Components/LodgingCard';
 
 
 const maskGroup = {

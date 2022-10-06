@@ -1,13 +1,13 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Error from "./pages/Error";
-import About from "./pages/About";
-import Apartments from "./pages/Apartments";
-import Header from "./components/Header";
+import Home from "./Pages/Home";
+import Error from "./Pages/Error";
+import About from "./Pages/About";
+import Apartments from "./Pages/Apartments";
+import Header from "./Components/Header";
 
-import "./styles/index.scss";
-import "./styles/normalize.css";
+import "./Styles/index.scss";
+import "./Styles/normalize.css";
 
 const App = () => {
   return (

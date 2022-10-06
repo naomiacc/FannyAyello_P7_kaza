@@ -1,11 +1,11 @@
 import React from 'react';
-import Footer from "../components/Footer"
+import Footer from "../Components/Footer"
 
-import HomeImage from '../components/HomeImage';
-import BackgroundAbout from '../assets/background-about.png';
+import HomeImage from '../Components/HomeImage';
+import BackgroundAbout from '../Assets/background-about.png';
 
-import DropDownData from '../assets/about.json';
-import DropDown from '../components/DropDown';
+import DropDownData from '../Assets/about.json';
+import DropDown from '../Components/DropDown';
 
 const maskGroup = {
 	img: BackgroundAbout,
