@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import '../Styles/sass/composants/_lodgingCard.scss';
+
+
 const LodgingCard = (props) => {
   return (
     <div className="lodgingCard">

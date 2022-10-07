@@ -7,6 +7,8 @@ import BackgroundHome from '../Assets/background-home.png';
 import data from '../Assets/logements.json';
 import LodgingCard from '../Components/LodgingCard';
 
+import '../Styles/sass/base/_base.scss';
+import '../Styles/sass/composants/_lodgingCard.scss';
 
 const maskGroup = {
 	img: BackgroundHome,
