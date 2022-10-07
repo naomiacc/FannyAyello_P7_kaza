@@ -1,14 +1,16 @@
-@import "./sass/utils/variables.scss";
-@import "./sass/utils/mixins.scss";
+@import "./sass/utils/_variables.scss";
+@import "./sass/utils/_mixins.scss";
 
-@import "./sass/base/base.scss";
+@import "./sass/base/_base.scss";
 
-// @import "./sass/composants/buttons";
-// @import "./sass/composants/cards.scss";
-// @import "./sass/composants/loader.scss";
+@import "./sass/composants/_dropDown.scss";
+@import "./sass/composants/_lodgingCard.scss";
 
-@import "./sass/layout/header.scss";
-// @import "./sass/layout/sections.scss";
-@import "./sass/layout/footer.scss";
+@import "./sass/layout/_header.scss";
+@import "./sass/layout/_footer.scss";
+@import "./sass/layout/_homeImage.scss";
+
+@import "./sass/pages/_error.scss";
+
 
 
