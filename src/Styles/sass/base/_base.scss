@@ -13,6 +13,18 @@ body {
 	height: 100%;
 }
 
+.container {
+	margin-left: $body-sides;
+	margin-right: $body-sides;
+	height: auto;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	@include mobile-800 {
+		margin: 0 $body-sides-S;
+	}
+}
+
 #root {
     height: 100%;
     position: absolute;
