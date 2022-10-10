@@ -1,6 +1,9 @@
 import React from 'react';
 import startFull from '../Assets/star-red.png';
 import starEmpty from '../Assets/star-white.png';
+
+import '../Styles/sass/composants/_description.scss';
+
 const range = [1, 2, 3, 4, 5];
 
 const StarScale = (props) => {

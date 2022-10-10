@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../Styles/sass/composants/_description.scss';
+
 const HostName = (props) => {
 	const HostName = props.host.name;
 	const HostNameArray = HostName.split(' ');

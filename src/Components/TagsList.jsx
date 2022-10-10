@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Styles/sass/composants/_description.scss';
 
 const TagsList = (props) => {
 	return props.tags.map((tag) => {
