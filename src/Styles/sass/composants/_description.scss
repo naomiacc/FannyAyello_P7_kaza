@@ -1,0 +1,149 @@
+@import "../utils/variables.scss";
+@import "../utils/mixins.scss";
+
+.description {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 30px 0;
+
+	&__summary {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 15px;
+		@include mobile-600 {
+			flex-direction: column;
+		}
+
+		&__left {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			max-width: 75%;
+			&__title {
+				font-size: 36px;
+				margin: 0 0 15px 0;
+
+				@include desktop-1200 {
+					font-size: 24px;
+				}
+				@include mobile-900 {
+					font-size: 18px;
+				}
+			}
+			&__location {
+				margin: 0;
+				font-size: 18px;
+				margin: 0 0 15px 0;
+				@include mobile-900 {
+					font-size: 14px;
+				}
+			}
+			&__tags {
+				display: flex;
+				flex-direction: row;
+				align-items: flex-end;
+				flex-wrap: wrap;
+				&__tag {
+					width: auto;
+					margin-right: 15px;
+					height: 25px;
+					padding-left: 37px;
+					padding-right: 37px;
+					font-weight: 500;
+					font-size: 14px;
+					display: flex;
+					align-items: center;
+					border-radius: 10px;
+					@include desktop-1200 {
+						padding-left: 30px;
+						padding-right: 30px;
+						font-weight: 500;
+						font-size: 12px;
+					}
+					@include mobile-900 {
+						margin: 10px 10px 0px 0px;
+						height: 18px;
+						border-radius: 5px;
+						font-size: 10px;
+						padding-left: 20px;
+						padding-right: 20px;
+					}
+				}
+			}
+		}
+		&__right {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			//height: 120px;
+			@include mobile-600 {
+				margin-top: 15px;
+				flex-direction: row-reverse;
+				justify-content: space-between;
+				align-items: center;
+			}
+			&__host {
+				display: flex;
+				justify-content: flex-end;
+				align-items: center;
+				font-size: 18px;
+				font-weight: 500;
+				@include mobile-600 {
+					font-size: 12px;
+				}
+
+				&__name {
+					display: flex;
+					flex-direction: column;
+					align-items: flex-end;
+				}
+
+				&__profilePic {
+					height: $profilePicDiameter;
+					width: $profilePicDiameter;
+					border-radius: $profilePicDiameter;
+					margin-left: 10px;
+					@include mobile-600 {
+						height: $profilePicDiameter-S;
+						width: $profilePicDiameter-S;
+						border-radius: $profilePicDiameter-S;
+					}
+				}
+			}
+
+			&__rating {
+				display: flex;
+				align-items: flex-end;
+				flex-wrap: nowrap;
+				@include mobile-600 {
+					align-items: center;
+				}
+
+				&__star {
+					height: 30px;
+					width: 30px;
+					@include mobile-600 {
+						height: 15px;
+						width: 15px;
+					}
+				}
+			}
+		}
+	}
+
+	&__info {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 15px;
+		@include desktop-1000 {
+			flex-direction: column;
+		}
+		.dropdown {
+			width: 48%;
+			@include desktop-1000 {
+				width: 100%;
+			}
+		}
+	}
+}

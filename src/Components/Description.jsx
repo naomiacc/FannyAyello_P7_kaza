@@ -4,6 +4,8 @@ import HostName from './HostName';
 import StarScale from './StarScale';
 import TagsList from './TagsList';
 
+import '../Styles/sass/composants/_description.scss';
+
 const Description = (props) => {
 	const dropDownData = [
 		{
