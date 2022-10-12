@@ -6,9 +6,9 @@ function Header(props) {
 	return (
 		<>
 		<header className='header'>
-			<h1 className='header__logo'>
+			<a className='header__logo' href='/'>
 				<img src={Logo} alt='kaza header logo' className='header__logo__picture prim-on-sec' />
-			</h1>
+			</a>
 			<nav className='header__nav'>
 				<ul className='header__nav__ul'>
 					<li className='header__nav__ul__li'>
