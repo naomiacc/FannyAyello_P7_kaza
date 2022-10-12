@@ -15,8 +15,33 @@ const Carroussel = (apartments) => {
 	const prev = () => {
 		setCurrent(current < 1 ? max : current - 1);
 	};
+
 	return (
 		<section className='carroussel'>
+
+			{apartments.pictures.length <= 1 &&(
+			<>
+			<div className='carroussel__container'>
+				{apartments.pictures.map((picture, index) => {
+					return (
+						<img
+							className={
+								index === current
+									? 'carroussel__container__picture__active '
+									: 'carroussel__container__picture'
+							}
+							src={picture}
+							alt={apartments.title + apartments.pictures.indexOf(picture)}
+							key={apartments.title + apartments.pictures.indexOf(picture)}
+						/>
+					);
+				})}
+			</div>
+			</>
+			)}
+
+			{apartments.pictures.length > 1 && (
+			<>
 			<img
 				src={prevIcon}
 				alt='Carroussel__prev'
@@ -24,7 +49,7 @@ const Carroussel = (apartments) => {
 				onClick={prev}
 				className='carroussel__button'
 				id='prev'></img>
-
+			
 			<div className='carroussel__container'>
 				{apartments.pictures.map((picture, index) => {
 					return (
@@ -49,6 +74,10 @@ const Carroussel = (apartments) => {
 				onClick={next}
 				className='carroussel__button'
 				id='next'></img>
+
+			</>
+			)}
+
 		</section>
 	);
 };
