@@ -1,3 +1,46 @@
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <img src="src/Assets/logo-home.png" alt="Logo" width="145" height="47">
+
+<h3 align="center">Projet 11 - KASA</h3>
+</p>
+
+<p align="left">
+<br />
+     Compétences visées :     
+       <ol>
+         <li>Développer les routes d'une application web avec React Router</li>      
+         <li>Initialiser une application web avec un framework</li>  
+         <li>Créer des composants avec React</li>  
+       </ol>    
+<br />
+
+<!-- ABOUT THE PROJECT -->
+
+## Le projet
+
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+Kasa vous recrute en tant que développeur Front-end en freelance pour développer leur nouvelle plateforme web. Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France.
+
+Fonctionnalités Carousel:
+
+- Si l'utilisateur se trouve à la première image et qu'il clique sur "image précédente", la galerie affiche la dernière image.
+- Inversement, quand l'image affichée est la dernière de la galerie, si l'utilisateur clique sur "image suivante", la galerie affiche la première image.
+- S'il n'y a qu'une seule image, les boutons "suivant" et "précédent" n'apparaissent pas.
+- La galerie doit toujours rester de la même hauteur, celle indiquée sur la maquette Figma. Les images seront donc coupées et centrées dans le cadre de l’image.
+
+### Développé avec :
+
+- [React](https://fr.reactjs.org/)
+- [React - Router](https://reactrouter.com/)
+- [Babel/core](https://babeljs.io/)
+- [SASS](https://sass-lang.com/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [Gh-Pages](https://www.npmjs.com/package/gh-pages/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
