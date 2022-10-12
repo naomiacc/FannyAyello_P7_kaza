@@ -1,7 +1,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <img src="src/Assets/logo-home.png" alt="Logo" width="145" height="47">
+  <a href="https://github.com/naomiacc/FannyAyello_P7_kaza">  
+    <img src="src/Assets/logo-home.png" alt="Logo" width="145" height="47">
+  </a>
 
 <h3 align="center">Projet 11 - KASA</h3>
 </p>
@@ -20,7 +22,7 @@
 
 ## Le projet
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="src/Assets/background-about.png" alt="backgroung about" width=100% height=auto>
 
 Kasa vous recrute en tant que développeur Front-end en freelance pour développer leur nouvelle plateforme web. Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France.
 
